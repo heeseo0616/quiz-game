@@ -28,7 +28,7 @@ Python 기본 문법과 클래스, JSON 파일 입출력만으로 구현한 콘�
 **요구 환경**: Python 3.10 이상 (외부 라이브러리 불필요)
 
 ```bash
-git clone {https://github.com/heeseo0616/quiz-game.git}
+git clone https://github.com/heeseo0616/quiz-game.git
 cd quiz-game
 python3 main.py
 ```
