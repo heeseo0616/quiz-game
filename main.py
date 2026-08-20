@@ -9,6 +9,7 @@ STATE_FILE = "state.json"
 
 def ask_number(prompt, min_value, max_value):
     """min_value ~ max_value 범위의 정수를 받을 때까지 반복해서 물어본다."""
+    print(f"{min_value}~{max_value} 사이의 숫자를 입력하세요.")
     while True:
         raw = input(prompt).strip()
 
@@ -23,7 +24,7 @@ def ask_number(prompt, min_value, max_value):
             continue
 
         if number < min_value or number > max_value:
-            print(f"{min_value}~{max_value} 사이의 숫자를 입력하세요.")
+            
             continue
 
         return number
