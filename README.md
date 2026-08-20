@@ -145,3 +145,4 @@ quiz-game/
 |---|---|
 | ![추가](docs/screenshots/add_quiz.png) | ![점수](docs/screenshots/score.png) |
 -->
+> clone 실습으로 복제한 저장소에서 추가한 줄입니다.
