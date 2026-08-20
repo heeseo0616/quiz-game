@@ -134,7 +134,7 @@ quiz-game/
 
 ## 실행 화면
 
-{스크린샷을 docs/screenshots/ 에 넣고 아래 주석을 푸세요}
+https://github.com/heeseo0616/quiz-game/blob/main/docs/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-08-21%20084133.png
 
 <!--
 | 메뉴 | 퀴즈 풀기 |
@@ -281,7 +281,7 @@ quiz-game/
 
 ## 실행 화면
 
-{스크린샷을 docs/screenshots/ 에 넣고 아래 주석을 푸세요}
+https://github.com/heeseo0616/quiz-game/blob/main/docs/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-08-21%20084133.png
 
 <!--
 | 메뉴 | 퀴즈 풀기 |
