@@ -191,7 +191,7 @@ class QuizGame:
         best_percent = score_percent(self.best_score, self.best_total)
 
         print("\n" + "=" * 40)
-        print(f"🏆 결과: {total}문제 중 {score}문제 정답! ({percent}점)")
+        print(f" 결과: {total}문제 중 {score}문제 정답! ({percent}점)")
 
         if self.best_total == 0 or percent > best_percent:
             self.best_score = score
@@ -216,7 +216,7 @@ class QuizGame:
 
         self.quizzes.append(Quiz(question, choices, answer))
         self.save()
-        print("\n✅ 퀴즈가 추가되었습니다!")
+        print("\n 퀴즈가 추가되었습니다!")
 
     def show_list(self):
         """등록된 퀴즈 목록을 출력한다."""
@@ -224,7 +224,7 @@ class QuizGame:
             print("\n등록된 퀴즈가 없습니다.")
             return
 
-        print(f"\n📋 등록된 퀴즈 목록 (총 {len(self.quizzes)}개)")
+        print(f"\n 등록된 퀴즈 목록 (총 {len(self.quizzes)}개)")
         print("-" * 40)
         for index, quiz in enumerate(self.quizzes):
             print(f"[{index + 1}] {quiz.question}")
